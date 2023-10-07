@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "serviceName": "Women’s Wellness Retreat",
+    "image": "https://i.ibb.co/qCGBX6Q/360-F-228625898-Vfv-KB52kgm-Oyvxled-We-RXdph-Dfh-MOo-Pk.jpg",
+    "price": "$799",
+    "description": "Join our Women’s Wellness Retreat to rejuvenate your mind, body, and soul.",
+    "longDescription": "Experience the ultimate relaxation and rejuvenation at our Women’s Wellness Retreat. This retreat is meticulously designed to provide women with a holistic well-being experience. Our expert instructors will guide you through yoga sessions tailored to women's health, mindfulness practices, and rejuvenating spa treatments. You'll leave feeling refreshed, balanced, and empowered."
+  },
+  {
+    "id": 2,
+    "serviceName": "10-Day Detox Retreat",
+    "image": "https://i.ibb.co/qCGBX6Q/360-F-228625898-Vfv-KB52kgm-Oyvxled-We-RXdph-Dfh-MOo-Pk.jpg",
+    "price": "$1199",
+    "description": "Embark on a transformative journey with our 10-Day Detox Retreat.",
+    "longDescription": "Revitalize your body, mind, and soul with our 10-Day Detox Retreat. This immersive program is designed to help you cleanse your body of toxins, rejuvenate your spirit, and reset your overall health. Through a combination of daily yoga practices, detox therapies, and nourishing meals, you'll embark on a transformative journey towards a healthier and happier you."
+  },
+  {
+    "id": 3,
+    "serviceName": "Yoga for Stress Relief",
+    "image": "https://i.ibb.co/qCGBX6Q/360-F-228625898-Vfv-KB52kgm-Oyvxled-We-RXdph-Dfh-MOo-Pk.jpg",
+    "price": "$599",
+    "description": "Discover inner peace and combat stress with our Yoga for Stress Relief program. ",
+    "longDescription": "Find inner peace and conquer stress with our Yoga for Stress Relief program. This retreat is dedicated to helping you unwind and reduce stress through a combination of relaxation techniques, meditation sessions, and gentle yoga practices. Take a break from the chaos of daily life and embrace tranquility."
+  },
+  {
+    "id": 4,
+    "serviceName": "Yoga for Strength and Flexibility",
+    "image": "https://i.ibb.co/qCGBX6Q/360-F-228625898-Vfv-KB52kgm-Oyvxled-We-RXdph-Dfh-MOo-Pk.jpg",
+    "price": "$699",
+    "description": "Enhance your physical fitness and flexibility with our Yoga for Strength and Flexibility retreat. ",
+    "longDescription": "Boost your physical fitness and flexibility with our Yoga for Strength and Flexibility retreat. This program offers a blend of hatha and vinyasa yoga sessions suitable for all levels. Whether you're a beginner or an experienced yogi, you'll find this retreat perfect for improving your strength and flexibility, helping you achieve a healthier body and mind."
+  },
+  {
+    "id": 5,
+    "serviceName": "Meditation and Mindfulness Yoga",
+    "image": "https://i.ibb.co/qCGBX6Q/360-F-228625898-Vfv-KB52kgm-Oyvxled-We-RXdph-Dfh-MOo-Pk.jpg",
+    "price": "$549",
+    "description": "Immerse yourself in the practice of mindfulness and meditation with our Meditation and Mindfulness Yoga retreat.",
+    "longDescription": "Dive deep into the art of mindfulness and meditation at our Meditation and Mindfulness Yoga retreat. Discover powerful techniques to reduce stress, enhance your self-awareness, and cultivate inner peace. Whether you're new to meditation or seeking to deepen your practice, this retreat will guide you on a journey of self-discovery and tranquility."
+  },
+  {
+    "id": 6,
+    "serviceName": "Ashtanga Sadhana Yoga",
+    "image": "https://i.ibb.co/qCGBX6Q/360-F-228625898-Vfv-KB52kgm-Oyvxled-We-RXdph-Dfh-MOo-Pk.jpg",
+    "price": "$799",
+    "description": "Experience the discipline and tradition of Ashtanga Sadhana Yoga.",
+    "longDescription": "Immerse yourself in the discipline and tradition of Ashtanga Sadhana Yoga with this retreat designed for dedicated practitioners. If you're looking for a challenging yoga practice to deepen your journey, this program is tailored to you. With rigorous asanas, pranayama techniques, and meditation, you'll embark on a profound exploration of the yogic path."
+  }
+]
