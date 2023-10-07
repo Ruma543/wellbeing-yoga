@@ -4,7 +4,7 @@ import ServiceCard from './ServiceCard';
 
 const Service = () => {
   const { services } = useContext(AuthContext);
-  console.log(services);
+  // console.log(services);
   return (
     <div>
       <h3 className="text-3xl text-center font-semibold font-serif">

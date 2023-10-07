@@ -1,11 +1,12 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import Navbar from '../Home/Navbar/Navbar';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import swal from 'sweetalert';
 
 const Registration = () => {
-  const { user, createUser } = useContext(AuthContext);
+  const navigate = useNavigate();
+  const { user, createUser, profileUpdate } = useContext(AuthContext);
 
   console.log(user);
   const handleRegistration = e => {
@@ -31,7 +32,16 @@ const Registration = () => {
       return;
     }
     createUser(email, password)
-      .then(result => console.log(result.user))
+      .then(result => {
+        profileUpdate(name, image)
+          .then(() => {
+            swal('Good Job !', 'User Update succfully!', 'success');
+            navigate('/');
+          })
+          .catch(error => {
+            swal('Sorry!', 'User information is missing!', 'error');
+          });
+      })
       .then(error => console.log(error));
   };
 

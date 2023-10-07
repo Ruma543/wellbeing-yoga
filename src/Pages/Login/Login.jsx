@@ -1,13 +1,15 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Navbar from '../Home/Navbar/Navbar';
 import swal from 'sweetalert';
 
 const Login = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
   const { user, loginUser } = useContext(AuthContext);
 
-  console.log(loginUser);
+  // console.log(loginUser);
   const handleLogin = e => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
@@ -20,7 +22,7 @@ const Login = () => {
       .then(userCredential => {
         const user = userCredential.user;
         swal('Good Job!', 'Login successfully!', 'success');
-        return;
+        navigate(location?.state ? location.state : '/');
       })
       .catch(error => {
         const errorCode = error.code;

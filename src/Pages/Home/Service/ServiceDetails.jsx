@@ -11,7 +11,7 @@ const ServiceDetails = () => {
   useEffect(() => {
     const findService = services && services?.find(item => item.id == id);
     setServiceDetails(findService);
-    console.log(findService);
+    // console.log(findService);
   }, [id, services]);
   // console.log(services);
   return (
