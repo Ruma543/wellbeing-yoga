@@ -42,7 +42,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-stone-300 mt-4">
+    <div className="navbar bg-stone-300 ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -68,6 +68,7 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
+        <a className="btn btn-ghost normal-case text-2xl">Wellbeing Yoga</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className=" px-1 flex gap-4">{navLinks}</ul>
@@ -95,9 +96,6 @@ const Navbar = () => {
             </ul>
           </div>
         ) : (
-          // <button onClick={handleSignOut} className="btn">
-          //   Sign Out
-          // </button>
           <Link to="/login">
             <button className="btn">login</button>
           </Link>

@@ -8,7 +8,7 @@ import Welcome from './Welcome/Welcome';
 const Home = () => {
   return (
     <div>
-      <Header></Header>
+      {/* <Header></Header> */}
       <Navbar></Navbar>
       <Banner></Banner>
       <Welcome></Welcome>
