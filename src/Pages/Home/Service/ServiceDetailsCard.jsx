@@ -5,10 +5,13 @@ const ServiceDetailsCard = ({ serviceDetails }) => {
     serviceDetails || {};
   console.log(serviceDetails);
   return (
-    <div className="w-full mx-auto">
+    <div className="w-full mx-auto grid grid-cols-2 items-center gap-5 ">
       <img className="w-full h-[70vh]  " src={image} alt="" />
-      <h2 className="text-2xl font-semibold text-left">{serviceName}</h2>
-      <h3>{longDescription}</h3>
+      <div className="space-y-4">
+        <h2 className="text-2xl font-semibold text-center">{serviceName}</h2>
+        <h3>{longDescription}</h3>
+        <button className="btn bg-stone-500 text-white">Booking Now</button>
+      </div>
     </div>
   );
 };

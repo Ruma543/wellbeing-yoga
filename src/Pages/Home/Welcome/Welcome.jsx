@@ -18,6 +18,9 @@ const Welcome = () => {
           C
         </span>
         <span className="text-stone-400 text-2xl font-semibold font-serif">
+          O
+        </span>
+        <span className="text-stone-400 text-2xl font-semibold font-serif">
           M
         </span>
         <span className="text-stone-400 text-2xl font-semibold font-serif">

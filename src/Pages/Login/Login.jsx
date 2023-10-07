@@ -4,6 +4,8 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import Navbar from '../Home/Navbar/Navbar';
 import swal from 'sweetalert';
 
+import SocialMedia from './SocialMedia';
+
 const Login = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -22,15 +24,16 @@ const Login = () => {
       .then(userCredential => {
         const user = userCredential.user;
         swal('Good Job!', 'Login successfully!', 'success');
-        navigate(location?.state ? location.state : '/');
+        navigate(location.state ? location.state : '/');
       })
       .catch(error => {
         const errorCode = error.code;
         const errorMessage = error.message;
-        swal('Sorry!', 'Please provide currect mail and password !', 'error');
+        swal('Sorry!', 'Please provide currect email and password !', 'error');
         return;
       });
   };
+
   return (
     <div>
       <Navbar></Navbar>
@@ -69,6 +72,7 @@ const Login = () => {
           </label>
           <button className="btn w-full">Login</button>
         </form>
+
         <p className="py-4">
           New for Website? Please{' '}
           <Link className="text-black underline" to="/registration">
@@ -76,6 +80,7 @@ const Login = () => {
           </Link>
         </p>
       </div>
+      <SocialMedia></SocialMedia>
     </div>
   );
 };
