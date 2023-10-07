@@ -7,41 +7,46 @@ const Banner = () => {
   const bannerStyle = {
     backgroundImage: `url(${img1})`,
     backgroundSize: 'cover',
-    height: '70vh',
+    height: '80vh',
   };
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <div className="banner " style={bannerStyle}>
-      <div className="grid grid-cols-2 items-center">
-        <div></div>
-        <div className=" h-56 items-center flex flex-col py-6">
-          <div>
-            <h3
-              data-aos="fade-left"
-              data-aos-offset="200"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-              className="text-4xl font-serif font-semibold"
-            >
-              Join Our Wellbeing Yoga
-            </h3>
-          </div>
+      <div className=" h-full  w-2/5 mx-auto items-center justify-center flex flex-col py-6">
+        <h3
+          data-aos="fade-up-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="text-4xl font-serif font-semibold"
+        >
+          Join Our Wellbeing Yoga
+        </h3>
 
-          <p
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            className="text-xl"
-          >
-            Yoga means addition – addition of energy, strength and beauty to
-            body, mind and soul.
-          </p>
-        </div>
+        <p
+          data-aos="fade-up-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="text-xl"
+        >
+          Yoga means addition – addition of energy, strength and beauty to body,
+          mind and soul.
+        </p>
+        <button
+          data-aos="fade-down"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="btn btn-neutral my-5"
+        >
+          Read More
+        </button>
       </div>
     </div>
   );

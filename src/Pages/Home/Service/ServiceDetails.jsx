@@ -16,7 +16,6 @@ const ServiceDetails = () => {
   // console.log(services);
   return (
     <div>
-      <Navbar></Navbar>
       <ServiceDetailsCard serviceDetails={serviceDetails}></ServiceDetailsCard>
     </div>
   );

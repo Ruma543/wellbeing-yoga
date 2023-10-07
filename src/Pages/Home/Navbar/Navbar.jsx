@@ -39,10 +39,20 @@ const Navbar = () => {
           About Us
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/about"
+          className={({ isActive, isPending }) =>
+            isActive ? 'text-pink-700' : isPending ? 'pending' : ''
+          }
+        >
+          Blog
+        </NavLink>
+      </li>
     </>
   );
   return (
-    <div className="navbar bg-stone-300 ">
+    <div className="navbar bg-stone-300  w-full px-12">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -89,7 +99,7 @@ const Navbar = () => {
                 <button className="btn">{user.displayName}</button>
               </li>
               <li>
-                <button onClick={handleSignOut} className="btn">
+                <button onClick={handleSignOut} className="btn mr-5">
                   Sign Out
                 </button>
               </li>
@@ -97,7 +107,7 @@ const Navbar = () => {
           </div>
         ) : (
           <Link to="/login">
-            <button className="btn">login</button>
+            <button className="btn mr-5">login</button>
           </Link>
         )}
       </div>

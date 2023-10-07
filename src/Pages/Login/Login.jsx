@@ -36,9 +36,8 @@ const Login = () => {
 
   return (
     <div>
-      <Navbar></Navbar>
       <div>
-        <h3 className="text-2xl font-serif font-semibold my-5">
+        <h3 className="text-2xl font-serif font-semibold mt-10 mb-3">
           Please Login For Booking
         </h3>
         <form
