@@ -2,9 +2,11 @@ import React, { useContext } from 'react';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import Navbar from '../Home/Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import swal from 'sweetalert';
 
 const Registration = () => {
-  const { user } = useContext(AuthContext);
+  const { user, createUser } = useContext(AuthContext);
+
   console.log(user);
   const handleRegistration = e => {
     e.preventDefault();
@@ -14,7 +16,25 @@ const Registration = () => {
     const image = form.get('image');
     const password = form.get('password');
     console.log(name, email, password, image);
+    if (password.length < 6) {
+      swal('Sorry!', 'Password must have 6 character!', 'error');
+      return;
+    } else if (!/[A-Z]/.test(password)) {
+      swal('Sorry!', 'Password should have atleast one upercase!', 'error');
+      return;
+    } else if (!/(?=.*[@#$%^&+=!])/.test(password)) {
+      swal(
+        'Sorry!',
+        'Password should have atleast one  special character!',
+        'error'
+      );
+      return;
+    }
+    createUser(email, password)
+      .then(result => console.log(result.user))
+      .then(error => console.log(error));
   };
+
   return (
     <div>
       <Navbar></Navbar>

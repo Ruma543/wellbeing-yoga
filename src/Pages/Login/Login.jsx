@@ -2,10 +2,12 @@ import React, { useContext } from 'react';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import { Link } from 'react-router-dom';
 import Navbar from '../Home/Navbar/Navbar';
+import swal from 'sweetalert';
 
 const Login = () => {
-  const { user } = useContext(AuthContext);
-  console.log(user);
+  const { user, loginUser } = useContext(AuthContext);
+
+  console.log(loginUser);
   const handleLogin = e => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
@@ -14,6 +16,18 @@ const Login = () => {
 
     const password = form.get('password');
     console.log(email, password);
+    loginUser(email, password)
+      .then(userCredential => {
+        const user = userCredential.user;
+        swal('Good Job!', 'Login successfully!', 'success');
+        return;
+      })
+      .catch(error => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        swal('Sorry!', 'Please provide currect mail and password !', 'error');
+        return;
+      });
   };
   return (
     <div>
