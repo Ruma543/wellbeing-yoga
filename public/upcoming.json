@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "category": "Hatha Yoga",
+    "image": "https://i.ibb.co/4FcmRps/alex-shaw-m-SJsi-QCm6og-unsplash.jpg",
+    "upcoming_services": {
+      "service_name1": "Hatha Yoga Basics",
+      "service_name2": "Hatha Yoga for Flexibility",
+      "service_name3": "Hatha Yoga for Strength"
+    }
+  },
+  {
+    "id": 2,
+    "category": "Vinyasa Flow",
+    "image": "https://i.ibb.co/Ycr4Y9D/upcoming2.jpg",
+    "upcoming_services": {
+      "service_name1": "Morning Vinyasa Flow",
+      "service_name2": "Evening Vinyasa Flow",
+      "service_name3": "Weekend Vinyasa Retreat"
+    }
+  },
+  {
+    "id": 3,
+    "category": "Meditation",
+    "image": "https://i.ibb.co/5KjwDJB/upcoming3.webp",
+    "upcoming_services": {
+      "service_name1": "Guided Meditation Session",
+      "service_name2": "Meditation for Inner Peace",
+      "service_name3": "Mindfulness Meditation Workshop"
+    }
+  }
+]

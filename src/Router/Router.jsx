@@ -8,6 +8,8 @@ import PrivateRoute from '../PrivateRoute/PrivateRoute';
 import ErrorPage from '../Pages/ErrorPage/ErrorPage';
 import Blog from '../Pages/Blog/Blog';
 import About from '../Pages/About/About';
+import Contact from '../Pages/Contact/Contact';
+import Upcoming from '../Pages/Home/Upcoming/Upcoming';
 
 const Router = createBrowserRouter([
   {
@@ -45,6 +47,19 @@ const Router = createBrowserRouter([
         path: '/about',
         element: <About></About>,
       },
+      {
+        path: '/contact',
+        element: (
+          <PrivateRoute>
+            <Contact></Contact>
+          </PrivateRoute>
+        ),
+      },
+      // {
+      //   path: '/',
+      //   element: <Upcoming></Upcoming>,
+
+      // },
     ],
   },
 ]);

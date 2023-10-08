@@ -49,6 +49,20 @@ const Navbar = () => {
           Blog
         </NavLink>
       </li>
+      {user && (
+        <>
+          <li>
+            <NavLink
+              to="/contact"
+              className={({ isActive, isPending }) =>
+                isActive ? 'text-pink-700' : isPending ? 'pending' : ''
+              }
+            >
+              Contact
+            </NavLink>
+          </li>
+        </>
+      )}
     </>
   );
   return (
@@ -78,7 +92,9 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-2xl">Wellbeing Yoga</a>
+        <a className="btn btn-ghost normal-case text-xl lg:text-2xl">
+          Wellbeing Yoga
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className=" px-1 flex gap-4">{navLinks}</ul>

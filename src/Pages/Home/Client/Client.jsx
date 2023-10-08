@@ -12,11 +12,13 @@ const Client = () => {
     height: '80vh',
   };
   return (
-    <div className=" bg-stone-300 h-[80vh] my-6 ">
-      <h3 className="text-3xl font-semibold py-5">Meet our Client</h3>
+    <div className=" bg-stone-300 lg:h-[80vh] my-6 ">
+      <h3 className="text-3xl font-semibold py-5 font-serif">
+        Meet our Client
+      </h3>
 
       <div className="flex items-center"></div>
-      <div className="grid lg:grid-cols-4 grid-cols-1 p-5 gap-6">
+      <div className="grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 p-5 gap-6">
         {clients.map(client => (
           <ClientCard key={client.id} client={client}></ClientCard>
         ))}

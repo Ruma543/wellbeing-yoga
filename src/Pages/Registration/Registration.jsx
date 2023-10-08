@@ -53,7 +53,7 @@ const Registration = () => {
         </h3>
         <form
           onSubmit={handleRegistration}
-          className="w-1/3 mx-auto bg-stone-500 px-5 py-7 rounded-lg "
+          className="lg:w-1/3 w-full mx-auto bg-stone-500 px-5 py-7 rounded-lg "
         >
           <label className="label">
             <span className="text-white font-semibold text-xl">User Name</span>

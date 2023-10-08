@@ -6,6 +6,7 @@ import Service from './Service/Service';
 import Welcome from './Welcome/Welcome';
 import Footer from './Footer/Footer';
 import Client from './Client/Client';
+import Upcoming from './Upcoming/Upcoming';
 
 const Home = () => {
   return (
@@ -18,9 +19,8 @@ const Home = () => {
       <Welcome></Welcome>
       <Service></Service>
       <Client></Client>
-      {/* <div className=" bottom-0  right-0 left-0 w-full  ">
-        <Footer></Footer>
-      </div> */}
+      <Upcoming></Upcoming>
+      {/* <Footer></Footer> */}
     </div>
   );
 };

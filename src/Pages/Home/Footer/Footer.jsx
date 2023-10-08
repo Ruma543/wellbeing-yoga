@@ -6,34 +6,38 @@ import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <footer className=" footer">
-      <div className=" grid lg:grid-cols-3 grid-cols-1 bg-stone-800 px-7 py-7 ">
+    <footer className=" footer w-full  ">
+      <div className=" grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 bg-stone-800  px-7 py-7 ">
         <div className="px-4 py-5 w-full">
           <div className="flex justify-evenly items-center w-4/5 mx-auto">
-            <img className="w-16 h-16 mx-auto m-b-3" src={logo} alt="" />
+            <img
+              className="lg:w-16 lg:h-16 w-10 mx-auto m-b-3"
+              src={logo}
+              alt=""
+            />
             <div>
-              <h3 className="text-2xl font-semibold text-white font-serif">
+              <h3 className="lg:text-2xl md:text-xl font-semibold text-white font-serif">
                 Wellbeing Yoga
               </h3>
-              <p className="text-sm italic text-stone-400">
+              <p className="lg:text-sm text-xm italic text-stone-400">
                 Body, Mind & Spirit Balance
               </p>
             </div>
           </div>
           <div className="mt-5">
-            <p className="flex items-center  gap-2 text-stone-100">
+            <p className="flex lg:items-center text-left lg:text-sm  text-xm gap-2 text-stone-100">
               <span>
                 <FcHome></FcHome>
               </span>
               <span>176 W street name, Dhaka, Bangladesh</span>
             </p>
-            <p className="flex items-center  gap-2 text-stone-100">
+            <p className="flex  lg:text-sm text-left text-xm lg:items-center  gap-2 text-stone-100">
               <span>
                 <AiOutlineMail></AiOutlineMail>
               </span>
               <span>Email: info@wellbeing.yoga.com</span>
             </p>
-            <p className="flex items-center  gap-2 text-stone-100">
+            <p className="flex lg:items-center text-left lg:text-sm text-xm  gap-2 text-stone-100">
               <span>
                 <FcPhone></FcPhone>
               </span>
@@ -42,13 +46,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center px-4 py-5 w-11/12">
-          <h3 className="text-xl font-serif font-semibold text-white mb-4">
-            Book A Treatment Or Join Our Classes!
+          <h3 className="lg:text-xl text-lg font-serif font-semibold text-white mb-4">
+            Reservation Now
           </h3>
           <button className="btn bg-stone-600 text-white">Book Now</button>
         </div>
         <div className="px-4 py-5 w-11/12">
-          <h2 className="text-xl font-serif font-semibold text-white mb-4">
+          <h2 className="lg:text-xl text-lg font-serif font-semibold text-white mb-4">
             follow Us
           </h2>
           <div className="flex justify-center gap-4 items-center ">

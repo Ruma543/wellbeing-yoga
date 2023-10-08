@@ -13,15 +13,15 @@ const Banner = () => {
     AOS.init();
   }, []);
   return (
-    <div className="banner " style={bannerStyle}>
-      <div className=" h-full  w-2/5 mx-auto items-center justify-center flex flex-col py-6">
+    <div className="banner  " style={bannerStyle}>
+      <div className=" h-full w-full lg:w-2/5 mx-auto items-center justify-center flex flex-col py-6">
         <h3
           data-aos="fade-up-left"
           data-aos-offset="200"
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          className="text-4xl font-serif font-semibold"
+          className="lg:text-4xl text-2xl font-serif font-semibold"
         >
           Join Our Wellbeing Yoga
         </h3>
@@ -32,7 +32,7 @@ const Banner = () => {
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          className="text-xl"
+          className="lg:text-xl text-sm"
         >
           Yoga means addition – addition of energy, strength and beauty to body,
           mind and soul.

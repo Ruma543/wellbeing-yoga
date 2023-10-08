@@ -5,14 +5,13 @@ import Footer from '../Pages/Home/Footer/Footer';
 
 const MainLayout = () => {
   return (
-    <div className="">
+    <div>
       <div className="fixed top-0 left-0 w-full mx-auto  ">
         <Navbar></Navbar>
       </div>
-      <div className="mb-5">
+      <div className="">
         <Outlet></Outlet>
       </div>
-      <Footer></Footer>
     </div>
   );
 };
