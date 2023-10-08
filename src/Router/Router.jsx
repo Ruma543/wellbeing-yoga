@@ -10,6 +10,7 @@ import Blog from '../Pages/Blog/Blog';
 import About from '../Pages/About/About';
 import Contact from '../Pages/Contact/Contact';
 import Upcoming from '../Pages/Home/Upcoming/Upcoming';
+import Events from '../Pages/Events/Events';
 
 const Router = createBrowserRouter([
   {
@@ -55,11 +56,11 @@ const Router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
-      // {
-      //   path: '/',
-      //   element: <Upcoming></Upcoming>,
-
-      // },
+      {
+        path: '/events',
+        element: <Events></Events>,
+        loader: () => fetch('/event.json'),
+      },
     ],
   },
 ]);

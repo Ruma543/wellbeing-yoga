@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Beachside Yoga Retreat",
+    "image": "https://i.ibb.co/mBj0gY6/event1.jpg",
+    "details": "Join us for a rejuvenating yoga retreat by the beautiful beach. This event is suitable for participants of all levels, from beginners to experienced yogis. Experience the soothing sound of the ocean waves as you practice yoga and meditation. Connect with nature and find inner peace in this serene coastal setting. Our experienced instructors will guide you through various yoga practices and relaxation techniques. Come and experience the bliss of yoga by the beach!",
+    "organizer": "Yoga Bliss Retreats",
+    "venue": "Cox's Bazar Beach, Bangladesh",
+    "date": "Nov-2023"
+  },
+  {
+    "id": 2,
+    "title": "Mountain Yoga Retreat",
+    "image": "https://i.ibb.co/XDrTcgV/event2.jpg",
+    "details": "Experience a weekend of mindfulness and yoga in the serene mountains. Join us for a transformative journey where you'll connect with yourself and nature. The retreat includes yoga sessions amidst the breathtaking mountain views, guided meditation, and hiking in the crisp mountain air. Learn to find balance, both physically and mentally, as you immerse yourself in the natural beauty of Aspen. All levels are welcome to join this retreat!",
+    "organizer": "Mountain Yoga Retreats",
+    "venue": "Chittagong Hill Tracts, Bangladesh",
+    "date": "Dec-2023"
+  },
+  {
+    "id": 3,
+    "title": "City Center Vinyasa Yoga",
+    "image": "https://i.ibb.co/0qpw0yb/event3.jpg",
+    "details": "Flow through a dynamic Vinyasa yoga class in the heart of the city. Our experienced instructors will guide you through a series of poses that synchronize breath with movement. This invigorating practice will help you build strength, flexibility, and mindfulness. Whether you're a seasoned yogi or a beginner, this class is open to all. Join us for a revitalizing experience in the bustling urban environment of New York City.",
+    "organizer": "Urban Yoga Collective",
+    "venue": "City Center Yoga Studio, Dhaka",
+    "date": "Dec-2023"
+  },
+  {
+    "id": 4,
+    "title": "Forest Yoga Retreat",
+    "image": "https://i.ibb.co/FJr7ZfJ/event4.jpg",
+    "details": "Connect with nature and practice yoga in the lush forest surroundings. This retreat offers a unique opportunity to immerse yourself in the healing power of the forest. Enjoy daily yoga and meditation sessions amidst towering trees and peaceful streams. Explore nature trails and connect with your inner self. All levels are welcome, and no prior yoga experience is required. Rediscover your connection to the natural world in the heart of Portland's Greenwood Retreat.",
+    "organizer": "Forest Harmony Yoga",
+    "venue": "Chittagong Hill Tracts, Bangladesh",
+    "date": "Oct-2023"
+  },
+  {
+    "id": 5,
+    "title": "Prenatal Yoga Workshop",
+    "image": "https://i.ibb.co/Vt8NZ8k/event5.jpg",
+    "details": "Calling all expecting mothers! Join us for a special prenatal yoga workshop designed to support your journey to motherhood. Our certified instructors will guide you through gentle yoga poses, breathwork, and relaxation techniques tailored for pregnancy. Connect with other moms-to-be in a nurturing environment. This workshop is suitable for all stages of pregnancy, and no prior yoga experience is needed. Experience the benefits of yoga for both you and your baby.",
+    "organizer": "Motherhood Yoga",
+    "venue": "Peaceful Birthing Center, Dhaka",
+    "date": "Nov-2023"
+  },
+  {
+    "id": 6,
+    "title": "Ashtanga Yoga Intensive",
+    "image": "https://i.ibb.co/F6yk5qV/event6.jpg",
+    "details": "Discover the power of Ashtanga yoga in this intensive workshop led by experienced instructors from the Ashtanga Yoga Institute. Dive deep into the traditional Ashtanga practice, focusing on breath, movement, and meditation. Whether you're a dedicated Ashtanga practitioner or new to this style, this workshop will challenge and inspire you. Join us for a transformative experience at the Yoga House in Los Angeles.",
+    "organizer": "Ashtanga Yoga Institute",
+    "venue": "Yoga House, Dhaka",
+    "date": "Jan-2024"
+  },
+  {
+    "id": 7,
+    "title": "Lakeside Yoga Retreat",
+    "image": "https://i.ibb.co/025YHZJ/event7.jpg",
+    "details": "Join us for a yoga and meditation retreat in a tranquil lakeside setting. Reconnect with yourself and nature as you practice yoga on the shores of a serene lake. This retreat includes daily yoga and meditation sessions, nature walks, and opportunities for relaxation and reflection. Immerse yourself in the beauty of Seattle's Lakeview Retreat Center. All levels of yogis are welcome.",
+    "organizer": "Lakeside Serenity Yoga",
+    "venue": "Foys Lake, Chittagong",
+    "date": "Feb-2024"
+  },
+  {
+    "id": 8,
+    "title": "Garden Yoga Sanctuary",
+    "image": "https://i.ibb.co/SfwMTCh/event8.jpg",
+    "details": "Practice yoga and mindfulness in a beautiful botanical garden. Find peace and tranquility surrounded by the lush greenery of San Francisco's Botanical Gardens. Our experienced instructors will guide you through a blend of yoga styles suitable for all levels. Discover the harmony of nature and yoga as you unwind in this unique outdoor setting.",
+    "organizer": "Garden Yoga Sanctuary",
+    "venue": "Botanical Gardens, Dhaka",
+    "date": "Nov-2023"
+  }
+]

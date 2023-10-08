@@ -27,7 +27,7 @@ const UpcomingCard = ({ upcomingS }) => {
               3.{upcoming_services.service_name3}
             </li>
           </ul>
-          <button className=" my-3 lg:w-full bg-stone-600 text-white px-3 py-2 rounded-lg">
+          <button className=" my-3 lg:w-full bg-stone-600 hover:bg-stone-800 text-white px-3 py-2 rounded-lg">
             View More
           </button>
         </div>

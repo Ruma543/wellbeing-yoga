@@ -14,7 +14,7 @@ const Client = () => {
   return (
     <div className=" bg-stone-300 lg:h-[80vh] my-6 ">
       <h3 className="text-3xl font-semibold py-5 font-serif">
-        Meet our Client
+        What Our Clients Say About Us
       </h3>
 
       <div className="flex items-center"></div>

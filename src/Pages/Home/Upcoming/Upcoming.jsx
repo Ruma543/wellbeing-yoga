@@ -10,7 +10,7 @@ const Upcoming = () => {
       .then(data => setUpcoming(data));
   }, []);
   return (
-    <div>
+    <div className="mb-10">
       <h3 className="lg:text-3xl text-xl font-semibold font-serif mb-6">
         Our Upcoming Services
       </h3>

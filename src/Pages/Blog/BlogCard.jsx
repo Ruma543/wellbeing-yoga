@@ -23,7 +23,7 @@ const BlogCard = ({ blog }) => {
         <h2 className="text-left text-xl font-semibold">{title}</h2>
         <p className="text-left">{content}</p>
       </div>
-      <button className="btn bg-stone-600 text-white  justify-end my-4">
+      <button className="px-4 py-3 rounded-lg hover:bg-stone-800 bg-stone-600 text-white  justify-end my-4">
         Read More
       </button>
     </div>
