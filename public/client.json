@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "client_name": "Alice Johnson",
+    "feedback": "I love the peaceful atmosphere and experienced instructors at the yoga center. The variety of classes they offer is impressive, and I feel a sense of inner peace and balance after every session.",
+    "client_image": "https://i.ibb.co/nchsj9k/client-1.jpg"
+  },
+  {
+    "id": 2,
+    "client_name": "Bob Smith",
+    "feedback": "The yoga classes here have improved my flexibility and overall well-being. The knowledgeable instructors pay attention to each student's progress, making me feel like I'm on a personalized journey to better health and mindfulness.",
+    "client_image": "https://i.ibb.co/9WQJQ0Z/client-2.jpg"
+  },
+  {
+    "id": 3,
+    "client_name": "Charlie Brown",
+    "feedback": "Attending classes at this yoga center has been a life-changing experience. Not only have I become physically stronger, but I've also found a supportive community of like-minded individuals who share my passion for yoga and self-improvement.",
+    "client_image": "https://i.ibb.co/BGjf1pH/client3.jpg"
+  },
+  {
+    "id": 4,
+    "client_name": "Diana Miller",
+    "feedback": "The meditation sessions are fantastic for reducing stress and anxiety. The guided meditations have helped me gain a sense of clarity and calm in my daily life, and I can't thank the yoga center enough for this transformational experience.",
+    "client_image": "https://i.ibb.co/2hvx1M3/client4.jpg"
+  }
+]

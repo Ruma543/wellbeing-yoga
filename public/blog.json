@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "5 Yoga Poses for Stress Relief",
+    "author": {
+      "name": "Jane Doe",
+      "image": "https://i.ibb.co/pPQm6nQ/author.jpg"
+    },
+    "date": "2023-7-08",
+    "content": "In today's fast-paced world, stress has become a common problem for many people. Yoga offers a natural and effective way to relieve stress and promote relaxation. In this blog post, we will explore five yoga poses that can help you find inner peace and reduce stress in your life."
+  },
+  {
+    "id": 2,
+    "title": "The Benefits of Practicing Yoga Daily",
+    "author": {
+      "name": "John Smith",
+      "image": "https://i.ibb.co/zZwjjbM/au.jpg"
+    },
+    "date": "2023-05-09",
+    "content": "Daily yoga practice can have a profound impact on your physical, mental, and emotional well-being. In this blog, we will discuss the numerous benefits of making yoga a part of your daily routine. From increased flexibility and strength to improved mental clarity and stress reduction, you'll discover why yoga is a valuable addition to your life."
+  }
+]
