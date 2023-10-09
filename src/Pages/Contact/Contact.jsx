@@ -17,7 +17,7 @@ const Contact = () => {
   }, []);
   return (
     <div style={contactStyle}>
-      <div className="flex flex-col lg:w-2/3 w-full mx-auto items-center h-full mt-9 p-8">
+      <div className="flex flex-col lg:w-2/3 w-full mx-auto items-center h-full m p-8">
         <h3
           data-aos="fade-up-left"
           data-aos-offset="200"
@@ -39,7 +39,7 @@ const Contact = () => {
           Yoga is the journey of the self, through the self, to the self.
         </p>
       </div>
-      <div className="grid lg:grid-cols-2 gap-5 grid-cols-1 my-6 lg:py-10 lg:px-10">
+      <div className="grid lg:grid-cols-2 gap-5 w-11/12 mx-auto grid-cols-1 my-6 lg:py-10 lg:px-10">
         <div>
           <h3 className=" text-left text-2xl font-semibold font-serif mb-4">
             Contact Info

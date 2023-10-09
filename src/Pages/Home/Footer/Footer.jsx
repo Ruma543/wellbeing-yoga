@@ -6,7 +6,7 @@ import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-neutral text-neutral-content">
+    <footer className="footer p-10 bg-neutral text-neutral-content ">
       <nav>
         <header className=" flex items-center gap-3">
           <img

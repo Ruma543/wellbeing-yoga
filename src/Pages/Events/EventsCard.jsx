@@ -7,12 +7,12 @@ const EventsCard = ({ event }) => {
   return (
     <div className=" mx-auto px-5 py-5  shadow-lg rounded-lg space-y-4">
       <div className="relative ">
-        <img className="full h-56 " src={image} alt="" />
+        <img className="w-full h-56 rounded-lg  mx-auto" src={image} alt="" />
         <button className="  absolute btn btn-primary  text-white top-0 left-0  bg-stone-700 h-16 w-16 rounded-full">
           {date}
         </button>
       </div>
-      <div>
+      <div className="space-y-3">
         <h3 className="text-2xl font-semibold font-serif text-left">{title}</h3>
         <p className="font-serif text-left text-sm h-15">
           {details.slice(0, 100)}

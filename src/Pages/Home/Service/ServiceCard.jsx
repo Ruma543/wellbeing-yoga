@@ -8,8 +8,10 @@ const ServiceCard = ({ service }) => {
     <div className=" mb-5">
       <div className=" shadow-lg bg-white px-6 py-9 rounded-lg">
         <img className="h-56" src={image} alt="" />
-        <h3 className="text-xl font-semibold my-2">{serviceName}</h3>
-        <p className="text-sm text-stone-600 h-20 flex items-center">
+        <h3 className="lg:text-xl text-lg h-10 font-semibold my-2 ">
+          {serviceName}
+        </h3>
+        <p className="text-sm text-stone-600 lg:h-20 h-20  flex items-center">
           {description}
         </p>
         <div className="flex justify-between items-center">

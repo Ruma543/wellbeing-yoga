@@ -21,7 +21,7 @@ const Banner = () => {
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          className="lg:text-4xl text-2xl font-serif font-semibold"
+          className="lg:text-4xl text-black text-2xl font-serif font-semibold"
         >
           Join Our Wellbeing Yoga
         </h3>
@@ -32,7 +32,7 @@ const Banner = () => {
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          className="lg:text-xl text-sm"
+          className="lg:text-xl text-sm text-center"
         >
           Yoga means addition – addition of energy, strength and beauty to body,
           mind and soul.

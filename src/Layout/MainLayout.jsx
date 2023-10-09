@@ -4,14 +4,16 @@ import Navbar from '../Pages/Home/Navbar/Navbar';
 
 const MainLayout = () => {
   return (
-    <div>
-      <div className="fixed top-0 left-0 w-full mx-auto  ">
+    <>
+      <div className="sticky top-0   z-50   w-full mx-auto  ">
         <Navbar></Navbar>
       </div>
-      <div className="">
-        <Outlet></Outlet>
+      <div>
+        <div className="">
+          <Outlet></Outlet>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

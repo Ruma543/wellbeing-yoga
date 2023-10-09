@@ -17,7 +17,7 @@ const Events = () => {
   }, []);
   // console.log(events);
   return (
-    <div className="mt-10">
+    <div className="">
       <div
         className=" lg:h-[70vh] mx-auto w-full  px-5 flex items-center  flex-col justify-center"
         style={eventsStyle}
@@ -38,13 +38,13 @@ const Events = () => {
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
-          className="lg:text-stone-700 text-black lg:w-2/5 w-full  mx-auto font-serif"
+          className="lg:text-stone-700 text-black lg:w-2/5 text-center w-full  mx-auto font-serif"
         >
           If you fall over, you fall over. If you have to stop, you stop. But
           you start again. Just like life itself, you start again.
         </p>
       </div>
-      <div className="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-5">
+      <div className="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 w-11/12 mx-auto gap-6">
         {events.map(event => (
           <EventsCard key={event.id} event={event}></EventsCard>
         ))}

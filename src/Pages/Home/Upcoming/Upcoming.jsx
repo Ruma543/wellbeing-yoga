@@ -11,7 +11,7 @@ const Upcoming = () => {
   }, []);
   return (
     <div className="mb-10">
-      <h3 className="lg:text-3xl text-xl font-semibold font-serif mb-6">
+      <h3 className="lg:text-3xl text-xl text-center font-semibold font-serif mb-6">
         Our Upcoming Services
       </h3>
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-5">

@@ -41,24 +41,24 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/blog"
+          to="/contact"
           className={({ isActive, isPending }) =>
             isActive ? 'text-pink-700' : isPending ? 'pending' : ''
           }
         >
-          Blog
+          Contact
         </NavLink>
       </li>
       {user && (
         <>
           <li>
             <NavLink
-              to="/contact"
+              to="/blog"
               className={({ isActive, isPending }) =>
                 isActive ? 'text-pink-700' : isPending ? 'pending' : ''
               }
             >
-              Contact
+              Blog
             </NavLink>
           </li>
           <li>
@@ -76,7 +76,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-stone-300  w-full px-12">
+    <div className="navbar bg-stone-300 z-50 relative w-full lg:px-12">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

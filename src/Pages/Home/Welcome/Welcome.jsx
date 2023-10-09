@@ -27,7 +27,7 @@ const Welcome = () => {
           E
         </span>
       </div>
-      <h2 className="text-4xl font-semibold text-black font-serif mb-2">
+      <h2 className="lg:text-4xl text-2xl text-center font-semibold text-black font-serif mb-2">
         Naturally Effective Health Solutions
       </h2>
       <p className="mb-4 text-stone-400">

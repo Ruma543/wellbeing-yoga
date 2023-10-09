@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutimg from '../../assets/4.jpg';
+import aboutImg from '../../assets/4.jpg';
 import { FcHome, FcPhone } from 'react-icons/fc';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
@@ -8,9 +8,9 @@ const About = () => {
   return (
     <div>
       <div>
-        <img src={aboutimg} alt="" />
+        <img className="w-full mx-auto lg:h-[80vh]" src={aboutImg} alt="" />
       </div>
-      <div className="space-y-6">
+      <div className="space-y-6 lg:w-11/12 w-11/12 mx-auto">
         <div>
           <h3 className="font-semibold text-2xl font-serif text-left mb-3">
             Our Vision
@@ -98,7 +98,7 @@ const About = () => {
             <h3 className=" text-left text-2xl font-semibold font-serif mb-4">
               Contact Info
             </h3>
-            <hr className="w-full text-black" />
+            <hr className="w-1/3 text-black" />
             <div className="my-5 ">
               <p className="flex items-center  gap-2">
                 <span>
@@ -124,7 +124,7 @@ const About = () => {
             <h2 className=" text-left text-2xl font-semibold font-serif mb-5">
               Stay Social
             </h2>
-            <hr className="w-full text-black" />
+            <hr className="w-1/3 text-black" />
             <div className="flex justify-start gap-6 items-center mt-5 ">
               <span className=" text-2xl">
                 <BsFacebook></BsFacebook>

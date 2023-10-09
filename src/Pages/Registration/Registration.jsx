@@ -36,6 +36,7 @@ const Registration = () => {
         profileUpdate(name, image)
           .then(() => {
             swal('Good Job !', 'User Update succfully!', 'success');
+            // window.location.reload();
             navigate('/');
           })
           .catch(error => {
@@ -48,12 +49,12 @@ const Registration = () => {
   return (
     <div>
       <div>
-        <h3 className="text-2xl font-serif font-semibold mt-10 mb-3">
+        <h3 className="text-2xl font-serif  text-center font-semibold mt-1 mb-3">
           Please Complete your Registration
         </h3>
         <form
           onSubmit={handleRegistration}
-          className="lg:w-1/3 w-full mx-auto bg-stone-500 px-5 py-7 rounded-lg "
+          className="lg:w-1/3 w-11/12 mx-auto bg-stone-500 px-5 py-3 rounded-lg "
         >
           <label className="label">
             <span className="text-white font-semibold text-xl">User Name</span>
@@ -100,9 +101,9 @@ const Registration = () => {
             required
           />
 
-          <button className="btn w-full my-2">Registration</button>
+          <button className="py-2 btn w-full my-2">Registration</button>
         </form>
-        <p className="py-4">
+        <p className="py-4 text-center">
           Already have Account? Please{' '}
           <Link className="text-black underline" to="/login">
             Login

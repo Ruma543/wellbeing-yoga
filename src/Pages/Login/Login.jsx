@@ -37,12 +37,12 @@ const Login = () => {
   return (
     <div>
       <div>
-        <h3 className="text-2xl font-serif font-semibold mt-10 mb-3">
+        <h3 className="text-2xl font-serif text-center font-semibold mt-10 mb-3">
           Please Login For Booking
         </h3>
         <form
           onSubmit={handleLogin}
-          className="lg:w-1/3 w-full mx-auto bg-stone-500 px-5 py-7 rounded-lg "
+          className="lg:w-1/3 w-11/12 mx-auto bg-stone-600 px-5 py-7 rounded-lg "
         >
           <label className="label">
             <span className="text-white font-semibold text-xl">User Email</span>
@@ -72,7 +72,7 @@ const Login = () => {
           <button className="btn w-full">Login</button>
         </form>
 
-        <p className="py-4">
+        <p className="py-4 text-center">
           New for Website? Please{' '}
           <Link className="text-black underline" to="/registration">
             Register

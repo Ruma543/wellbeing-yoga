@@ -41,7 +41,12 @@ const Router = createBrowserRouter([
       },
       {
         path: '/blog',
-        element: <Blog></Blog>,
+        element: (
+          <PrivateRoute>
+            {' '}
+            <Blog></Blog>
+          </PrivateRoute>
+        ),
         loader: () => fetch('/blog.json'),
       },
       {
@@ -50,11 +55,7 @@ const Router = createBrowserRouter([
       },
       {
         path: '/contact',
-        element: (
-          <PrivateRoute>
-            <Contact></Contact>
-          </PrivateRoute>
-        ),
+        element: <Contact></Contact>,
       },
       {
         path: '/events',

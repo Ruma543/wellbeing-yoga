@@ -9,11 +9,13 @@ import Footer from './Footer/Footer';
 const Home = () => {
   return (
     <div>
-      <Banner></Banner>
-      <Welcome></Welcome>
-      <Service></Service>
-      <Client></Client>
-      <Upcoming></Upcoming>
+      <div className="w-11/12 mx-auto">
+        <Banner></Banner>
+        <Welcome></Welcome>
+        <Service></Service>
+        <Client></Client>
+        <Upcoming></Upcoming>
+      </div>
       <Footer></Footer>
     </div>
   );
