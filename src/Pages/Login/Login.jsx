@@ -29,7 +29,7 @@ const Login = () => {
       .catch(error => {
         const errorCode = error.code;
         const errorMessage = error.message;
-        swal('Sorry!', 'Please provide currect email and password !', 'error');
+        swal('Sorry!', 'Please provide correct email and password !', 'error');
         return;
       });
   };
@@ -42,7 +42,7 @@ const Login = () => {
         </h3>
         <form
           onSubmit={handleLogin}
-          className="lg:w-1/3 w-11/12 mx-auto bg-stone-600 px-5 py-7 rounded-lg "
+          className="lg:w-1/3 w-11/12 md:w-3/5 mx-auto bg-stone-600 px-5 py-7 rounded-lg "
         >
           <label className="label">
             <span className="text-white font-semibold text-xl">User Email</span>

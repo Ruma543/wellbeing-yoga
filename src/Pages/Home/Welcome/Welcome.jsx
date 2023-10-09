@@ -4,7 +4,7 @@ import logo from '../../../assets/logo-120.png';
 const Welcome = () => {
   return (
     <div className="lg:w-3/5 w-full mx-auto lg:my-8 ">
-      <div className="flex justify-center gap-4 mb-4 ">
+      <div className="flex justify-center gap-4 mb-4 mt-6 ">
         <span className="text-stone-400 text-2xl font-semibold font-serif">
           W
         </span>

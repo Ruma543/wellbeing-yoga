@@ -21,12 +21,12 @@ const Registration = () => {
       swal('Sorry!', 'Password must have 6 character!', 'error');
       return;
     } else if (!/[A-Z]/.test(password)) {
-      swal('Sorry!', 'Password should have atleast one upercase!', 'error');
+      swal('Sorry!', 'Password should have at least one uppercase!', 'error');
       return;
     } else if (!/(?=.*[@#$%^&+=!])/.test(password)) {
       swal(
         'Sorry!',
-        'Password should have atleast one  special character!',
+        'Password should have at least one  special character!',
         'error'
       );
       return;
@@ -54,7 +54,7 @@ const Registration = () => {
         </h3>
         <form
           onSubmit={handleRegistration}
-          className="lg:w-1/3 w-11/12 mx-auto bg-stone-500 px-5 py-3 rounded-lg "
+          className="lg:w-1/3 w-11/12 md:w-3/5 mx-auto bg-stone-600 px-5 py-3 rounded-lg "
         >
           <label className="label">
             <span className="text-white font-semibold text-xl">User Name</span>
