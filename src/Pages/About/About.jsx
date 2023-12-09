@@ -36,7 +36,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-5 grid-cols-1 ">
           <div className="bg-white shadow-lg rounded-lg px-5 py-5">
             <h3 className="font-semibold text-2xl font-serif text-left mb-3">
-              1. Authentic Yoga Practice
+              1. Yoga Practice
             </h3>
             <p className="text-left">
               We offer a diverse range of yoga styles, from Hatha to Vinyasa,
